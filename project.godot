@@ -14,6 +14,11 @@ config/name="Metanarrative-roguelite"
 run/main_scene="res://BulletHellDemo.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Global="*res://Global.tscn"
+Storyteller="*res://Storyteller.gd"
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
