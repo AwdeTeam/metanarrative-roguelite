@@ -10,6 +10,7 @@ extents = Vector2( 30.75, 30.75 )
 
 [node name="Area2D" type="Area2D" parent="."]
 script = ExtResource( 2 )
+lifetime = 0.2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2( 0.25, 0.25 )
